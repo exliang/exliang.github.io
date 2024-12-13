@@ -197,6 +197,19 @@ body {
 	gap: 15px;
 }
 
+.list1 {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
 .list {
 	color: rgb(201, 173, 173);
 	position: relative;
@@ -208,4 +221,5 @@ body {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
+	padding-top: 10px;
 }
