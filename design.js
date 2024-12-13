@@ -13,5 +13,8 @@ navLinks.forEach(link => {
 		else if (link.classList.contains('contact')) {
             window.location.href = 'contact.html';
         }
+		else if (link.classList.contains('about')) {
+            window.location.href = 'about.html';
+        }
     });
 });

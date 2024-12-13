@@ -146,7 +146,7 @@ body {
 	display: inline-block; /*text only*/
 }
 
-.nav-link.home, .nav-link.projects, .nav-link.contact {
+.nav-link.home, .nav-link.about, .nav-link.experience, .nav-link.portfolio, .nav-link.contact {
 	font-weight: bold;
 	font-size: 25px;
 	color: rgb(225, 211, 211);
@@ -154,7 +154,7 @@ body {
 }
 
 .navbar span:hover {
-	background-color: #afc0e3;
+	background-color: #eaf1ff;
   	color: black;
 }
 
