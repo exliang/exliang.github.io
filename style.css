@@ -1,16 +1,10 @@
 /*Brush Script MT */
 
-.contact-heading {
-	color: rgb(225, 211, 211);
-	font-weight: bold;
-	position: relative;
-	z-index: 2;
-	top: 100px;
-	text-align: center;
-	font-family: 'Montserrat', sans-serif;
-	text-decoration: underline;
+body {
+	background-color: #302b2b; 
 }
 
+/* Home */
 .img {
 	position: relative;
 	display: flex;
@@ -72,8 +66,20 @@
     gap: 50px; /* Space between the image and text */
 }
 
+/* Contact */
+.contact-heading {
+	color: rgb(201, 173, 173);
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: underline;
+}
+
 .linkedin {
-	color: rgb(225, 211, 211);
+	color: rgb(201, 173, 173);
 	position: relative;
 	z-index: 2;
 	top: 100px;
@@ -88,7 +94,7 @@
 }
 
 .email, .phonenumber {
-	color: rgb(225, 211, 211);
+	color: rgb(201, 173, 173);
 	position: relative;
 	z-index: 2;
 	top: 100px;
@@ -103,20 +109,12 @@
 	padding-top: 20px;
 }
 
-body {
-	background-color: #302b2b; 
-}
-
+/* Nav bar */
 .nav-content {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	gap: 20px;
-}
-
-.name {
-	justify-content: left;
-	align-items: left;
 }
 
 .navbar {
@@ -158,3 +156,56 @@ body {
   	color: black;
 }
 
+/* About */
+
+.education, .skills, .courses {
+	color: rgb(201, 173, 173);
+	text-shadow: 2px 2px 5px rgba(255, 167, 167, 0.5);
+	font-weight: bold;
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.school {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.major, .gpa {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	padding-top: 20px;
+	gap: 15px;
+}
+
+.list {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
