@@ -1,4 +1,3 @@
-/*Brush Script MT */
 
 body {
 	background-color: #302b2b; 
@@ -79,7 +78,7 @@ body {
 	text-decoration: underline;
 }
 
-.linkedin {
+.linkedin, .github {
 	color: rgb(201, 173, 173);
 	position: relative;
 	z-index: 2;
@@ -249,4 +248,79 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.text {
+	padding-top: 10px;
+	padding-left: 200px;
+	padding-right: 200px;
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
+
+.text2 {
+	padding: 10px 5px;
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 100px;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.text2-container {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    text-align: center;
+}
+
+.image2-container {
+	position: relative;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	padding-top: 125px;
+}
+
+.surveyimg1-container {
+	position: relative;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	padding-top: 30px;
+}
+
+.surveyimg-container {
+	position: relative;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+}
+
+.fig {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+	font-size: 17px;
+	padding-top: 10px;
 }
