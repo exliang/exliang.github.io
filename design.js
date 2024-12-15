@@ -3,7 +3,6 @@ const navLinks = document.querySelectorAll('.nav-link');
 
 navLinks.forEach(link => {
     link.addEventListener('click', event => {   
-		// event.preventDefault();     
         if (link.classList.contains('home') || link.classList.contains('name')) {
             window.location.href = 'home.html';
         }
@@ -20,4 +19,15 @@ navLinks.forEach(link => {
             window.location.href = 'experience.html';
         }
     });
+});
+
+window.addEventListener("scroll", function () {
+	const navbar = document.querySelector(".navbar");
+	
+	if (window.scrollY > 50) { /*large than 50px, scroll*/
+	  navbar.classList.add("scrolled");
+	} 
+	else {
+	  navbar.classList.remove("scrolled");
+	}
 });
