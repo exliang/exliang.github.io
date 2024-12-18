@@ -407,3 +407,65 @@ body {
 	font-size: 20px;
 	font-weight: bold;
 }
+
+
+/* Experience */
+
+.role {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.role2 {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 90px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+	font-weight: bold;
+	padding-top: 30px;
+}
+
+.company {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 90px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	font-style: italic;
+}
+
+.date2 {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	top: 90px;
+	padding-top: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+}
