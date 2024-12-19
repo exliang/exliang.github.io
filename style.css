@@ -1,9 +1,8 @@
-
 body {
 	background-color: #302b2b; 
 }
 
-/* Home */
+/* Home Page */
 .img {
 	position: relative;
 	display: flex;
@@ -62,11 +61,11 @@ body {
 
 .flex-container {
 	display: flex;
-    align-items: center; /* Vertically aligns items */
-    gap: 50px; /* Space between the image and text */
+    align-items: center;
+    gap: 50px;
 }
 
-/* Contact */
+/* Contact Page */
 .contact-heading {
 	color: rgb(201, 173, 173);
 	font-weight: bold;
@@ -109,7 +108,7 @@ body {
 	padding-top: 20px;
 }
 
-/* Nav bar */
+/* Navigation Bar */
 .nav-content {
 	display: flex;
 	justify-content: center;
@@ -122,7 +121,7 @@ body {
 	height: 100px;
 	background-color: #1b1111;
 	position: fixed;
-	z-index: 1000; /*1*/
+	z-index: 1000;
 	top: 0;
     left: 0;
 	font-family: 'Lucida Handwriting', cursive;
@@ -134,15 +133,11 @@ body {
 }
 
 .navbar a {
-	text-decoration: none; /*no underline*/
+	text-decoration: none;
 	transition: color 0.3s ease;
 }
 
-.nav_link {
-	display: inline-block; /*text only*/
-}
-
-.nav_link span {
+.nav_link, .nav_link span {
 	display: inline-block; /*text only*/
 }
 
@@ -162,12 +157,7 @@ body {
 	background-color: rgba(59, 55, 55, 0.9);
 }
 
-/* .navbar a.active {
-    text-decoration: underline;
-} */
-
-/* About */
-
+/* About Page */
 .education, .skills, .courses, .zothacks {
 	color: rgb(201, 173, 173);
 	text-shadow: 2px 2px 5px rgba(255, 167, 167, 0.5);
@@ -250,8 +240,7 @@ body {
 	padding-bottom: 25px;
 }
 
-/* Porfolio */
-
+/* Porfolio Page */
 .date {
 	color: rgb(201, 173, 173);
 	position: relative;
@@ -311,12 +300,6 @@ body {
 	align-items: center; 
 	justify-content: center;
 	padding-top: 125px;
-}
-
- .img2 {
-	position: relative;
-	display: flex;
-	justify-content: center;
 }
 
 .surveyimg1-container {
@@ -415,9 +398,7 @@ body {
 	font-weight: bold;
 }
 
-
-/* Experience */
-
+/* Experience Page */
 .role {
 	color: rgb(201, 173, 173);
 	position: relative;
@@ -560,4 +541,4 @@ body {
 	transform: translateX(-50%);
 	z-index: 1;
 	margin-bottom: 30px;
-}  
+}
