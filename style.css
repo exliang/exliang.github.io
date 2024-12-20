@@ -240,7 +240,7 @@ body {
 	padding-bottom: 25px;
 }
 
-/* Porfolio Page */
+/* Portfolio Page */
 .date {
 	color: rgb(201, 173, 173);
 	position: relative;
@@ -396,6 +396,36 @@ body {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
 	font-weight: bold;
+}
+
+.image2-container-DB-first {
+	position: relative;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	padding-top: 5px;
+}
+
+.image2-container-DB {
+	position: relative;
+	display: flex;
+	align-items: center; 
+	justify-content: center;
+	padding-top: 20px;
+}
+
+.fig2 {
+	color: rgb(201, 173, 173);
+	position: relative;
+	z-index: 2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+	font-size: 17px;
+	padding-top: 10px;
+	padding-left: 15px;
 }
 
 /* Experience Page */
