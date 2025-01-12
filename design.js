@@ -23,8 +23,7 @@ navLinks.forEach(link => {
 
 window.addEventListener("scroll", function () {
 	const navbar = document.querySelector(".navbar");
-	
-	if (window.scrollY > 50) { /*large than 50px, scroll*/
+	if (window.scrollY > 50) { /* larger than 50px, scroll*/
 	  navbar.classList.add("scrolled");
 	} 
 	else {
