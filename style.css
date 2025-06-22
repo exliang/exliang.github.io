@@ -192,6 +192,7 @@ body {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 20px;
+	gap: 15px;
 }
 
 .major, .gpa {
